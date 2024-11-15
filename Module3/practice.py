@@ -5,6 +5,23 @@
 # 數字太小 要提示「請輸入更大的數字」
 # 使用者猜對要回傳「恭喜中獎」
 
+secret_num = 50
+num = -1
+
+while num != secret_num:
+    num = (int)(input("請輸入1~100: "))
+    
+    if num < 0 or num > 100:
+        print("超出範圍請重新輸入")
+
+    elif num > secret_num:
+        print("數字太大 請輸入更小的數字")
+    
+    elif num < secret_num:
+        print("數字太小 請輸入更大的數字")
+    
+    else:
+        print("恭喜中獎")
 
 
 
