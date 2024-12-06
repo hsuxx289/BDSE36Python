@@ -9,17 +9,22 @@ secret_num = 50
 num = -1
 
 while num != secret_num:
-    num = (int)(input("請輸入1~100: "))
+    try:
+        num = (int)(input("請輸入1~100: "))
+
+    except ValueError:
+        print("請輸入數字")
+        continue
     
     if num < 0 or num > 100:
         print("超出範圍請重新輸入")
 
     elif num > secret_num:
         print("數字太大 請輸入更小的數字")
-    
+        
     elif num < secret_num:
         print("數字太小 請輸入更大的數字")
-    
+        
     else:
         print("恭喜中獎")
 
