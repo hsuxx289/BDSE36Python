@@ -7,3 +7,4 @@
 ### Module7 - Exception Handling
 ### Module8 - File Handling
 ### Module9 - Modules
+### Module10 - Regex
