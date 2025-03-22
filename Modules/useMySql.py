@@ -8,7 +8,7 @@ class SqlQuery:
         self.connection = pymysql.connect(
             host="localhost",
             user="root",
-            password="P@ssw0rd",
+            password="",
             port=3306,
             database=database,
             cursorclass=pymysql.cursors.DictCursor
