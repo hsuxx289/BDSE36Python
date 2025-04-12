@@ -1,7 +1,20 @@
 ```
 .
 |-- 10. Practice
-|   `-- 10-1 Regex.ipynb
+|   |-- 10-1 Regex.ipynb
+|   |-- 10-2 Python_50.ipynb
+|   |-- menu
+|   |   |-- __init__.py
+|   |   |-- __pycache__
+|   |   |   |-- __init__.cpython-313.pyc
+|   |   |   `-- menu.cpython-313.pyc
+|   |   `-- menu.py
+|   `-- tax
+|       |-- __init__.py
+|       |-- __pycache__
+|       |   |-- __init__.cpython-313.pyc
+|       |   `-- income_tax.cpython-313.pyc
+|       `-- income_tax.py
 |-- 2. Data Types
 |   |-- 2-1 Hello World.py
 |   |-- 2-2 Decimal.ipynb
@@ -66,6 +79,6 @@
 |-- README.md
 `-- vscode \247\326\261\266\245\\257\340.PNG
 
-9 directories, 56 files
+13 directories, 65 files
 
 ```
